@@ -2,65 +2,153 @@
 <html lang="ko">
     <head>
         <meta charset="UTF-8" />
-        <title>html</title>
-        <meta name="keywords" content="html의 구조" />
-        <meta name="description" content="html의 구조를 알아보자" />
-        <meta name="author" content="김지호" />
+        <title>GPT_Kiosk</title>
     </head>
 
     <body>
-        <h1>제목</h1>
-        <h2>숫자가 더 클수록 작은 제목</h2>
-        <p>내용</p>
-
+        <!-- 키오스크 윗부분 탭들 들어가는 부분이 헤더 -->
         <header>
-            <h1>헤더는 웹페이지 상단에 네이버 바같은곳</h1>
+            <section id="main_tab">
+                <img src="img/logo.png" width="150px" />
 
-            <div id="logo">
-                <a href="#"><h1>로고 영역, href는 링크</h1></a>
-            </div>
-
-            <nav>
-                <ul id="topmenu">
-                    <li><a href="#">ul은 점으로 표시되는 순서없는 것</a></li>
-                    <li><a href="#">무언가</a></li>
-                    <li><a href="#">무언가</a></li>
+                <ul>
+                    <li><a href="#">버거</a></li>
+                    <li><a href="#">치킨</a></li>
+                    <li><a href="#">맘스세트</a></li>
+                    <li><a href="#">사이드</a></li>
+                    <li><a href="#">음료</a></li>
                 </ul>
-
-                <ol>
-                    <li><a href="#">ol은 점으로 표시되는 순서있는 것</a></li>
-                    <li><a href="#">무언가</a></li>
-                    <li><a href="#">무언가</a></li>
-                </ol>
-            </nav>
+            </section>
         </header>
 
         <main>
-            <section id="heading">
-                <h1>메인은 내용이 들어있는 부분</h1>
-                <p>내용 br은 다음 줄로 넘기는 줄넘김</p>
-                <blockquote>
-                    blockquote에는 인용문 넣기 살짝 이탤릭체처럼 기울어짐
-                </blockquote>
-                <p>
-                    <strong>스트롱은 음성으로도 강조하는 굵은글씨,</strong>
-                    <b>b는 글씨만 크게</b>
-                </p>
-                <p>
-                    <em>em은 이탤릭체 강조 텍스트,</em
-                    ><i>i 는 이탤릭체로 표시만 한 텍스트</i>
-                </p>
-            </section>
+            <secton id="main_menu">
+                <!-- 4*3 배열 형태로 메뉴 출력? 자세한 내용은 맘스터치 매장의 키오스크에서 확인 예정 -->
+                <section id="burger">
+                    <button class="불불불싸이버거">
+                        <i class="burger"></i>
+                    </button>
+                    <ul>
+                        <li><a href="#">불불불싸이버거</a></li>
+                        <li><a href="#">텍사스바비큐치킨버거</a></li>
+                        <li><a href="#">골드맥앤치즈비프버거</a></li>
+                        <li><a href="#">골드맥앤치즈치킨버거</a></li>
+                        <li><a href="#">아라비아따치즈버거</a></li>
+                        <li><a href="#">칠리새우버거</a></li>
+                        <li><a href="#">비프스테이크버거</a></li>
+                        <li><a href="#">청양마요미트볼버거</a></li>
+                        <li><a href="#">오리지널미트볼버거</a></li>
+                        <li><a href="#">트리플딥치즈비프버거</a></li>
+                        <li><a href="#">그릴드더블비프버거</a></li>
+                        <li><a href="#">그릴드비프버거</a></li>
+                        <!-- 여기까지 12개 -->
+                        <li><a href="#">트리플딥치즈싸이버거</a></li>
+                        <li><a href="#">쉬림프싸이플렉스버거</a></li>
+                        <li><a href="#">딥치즈싸이버거</a></li>
+                        <li><a href="#">화이트갈릭싸이버거</a></li>
+                        <li><a href="#">싸이플렉스버거</a></li>
+                        <li><a href="#">새우불고기버거</a></li>
+                        <li><a href="#">싸이버거</a></li>
+                        <li><a href="#">불싸이버거</a></li>
+                        <li><a href="#">딥치즈버거</a></li>
+                        <li><a href="#">인크레더블버거</a></li>
+                        <li><a href="#">언빌리버블버거</a></li>
+                        <li><a href="#">불고기버거</a></li>
+                        <!-- 또 12개 -->
+                        <li><a href="#">통새우버거</a></li>
+                        <li><a href="#">화이트갈릭버거</a></li>
+                        <li><a href="#">디럭스불고기버거</a></li>
+                        <li><a href="#">할라피뇨통살버거</a></li>
+                        <li><a href="#">휠렛버거</a></li>
+                    </ul>
+                </section>
 
-            <section id="something">
-                <h1>제목</h1>
-            </section>
+                <section id="chickin">
+                    <ul>
+                        <li><a href="#">싸이순살백스(후라이드)</a></li>
+                        <li><a href="#">꿀간장누룽지싸이순살</a></li>
+                        <li><a href="#">꿀간장누룽지치킨</a></li>
+                        <li><a href="#">치즈뿌치싸이순살(체다)</a></li>
+                        <li><a href="#">핫치즈싸이순살</a></li>
+                        <li><a href="#">치파오싸이순살</a></li>
+                        <li><a href="#">맘스양념싸이순살</a></li>
+                        <li><a href="#">간장마늘싸이순살</a></li>
+                        <li><a href="#">후라이드싸이순살</a></li>
+                        <li><a href="#">치즈뿌치(체다)</a></li>
+                        <li><a href="#">닭강정트리오</a></li>
+                        <li><a href="#">간장마늘치킨</a></li>
+                        <!-- 12개 -->
+                        <li><a href="#">맘스양념치킨</a></li>
+                        <li><a href="#">후라이드치킨</a></li>
+                        <li><a href="#">반반치킨</a></li>
+                        <li><a href="#">케이준떡강정</a></li>
+                        <li><a href="#">간장마늘떡강정</a></li>
+                        <li><a href="#">치파오떡강정</a></li>
+                        <li><a href="#">후라이트덴더</a></li>
+                        <li><a href="#">후라이드통다리(1조각)</a></li>
+                    </ul>
+                </section>
 
-            <ing src="img/main1.png"></ing>
+                <section id="set_menu">
+                    <ul>
+                        <li><a href="#">맘스패밀리세트(3인세트)</a></li>
+                        <li><a href="#">맘스패밀리세트(4인세트)</a></li>
+                        <li><a href="#">싱글비프스테이크순살세트</a></li>
+                        <li><a href="#">커플비프스테이크순살세트</a></li>
+                        <li><a href="#">싱글비프떡강정세트</a></li>
+                        <li><a href="#">커플비프스테이크떡강정세트</a></li>
+                        <li><a href="#">싱글비프스테이크통다리세트</a></li>
+                        <li><a href="#">커플비프스테이크통다리세트</a></li>
+                        <li><a href="#">싱글비프스테이크치킨세트</a></li>
+                        <li><a href="#">커플비프스테이크치킨세트</a></li>
+                        <li><a href="#">싱글순살세트</a></li>
+                        <li><a href="#">싱글떡강정세트</a></li>
+                        <!-- 12개 -->
+                        <li><a href="#">싱글통다리세트</a></li>
+                        <li><a href="#">싱글치킨세트</a></li>
+                        <li><a href="#">커플순살세트</a></li>
+                        <li><a href="#">커플떡강정세트</a></li>
+                        <li><a href="#">커플통다리세트</a></li>
+                        <li><a href="#">커플치킨세트</a></li>
+                    </ul>
+                </section>
+
+                <section id="side_menu">
+                    <ul>
+                        <li><a href="#">꿀꽈배기크림치즈</a></li>
+                        <li><a href="#">코울슬로</a></li>
+                        <li><a href="#">콘샐러드</a></li>
+                        <li><a href="#">바삭크림치즈볼</a></li>
+                        <li><a href="#">케이준양념감자</a></li>
+                        <li><a href="#">치즈감자</a></li>
+                        <li><a href="#">치즈뿌치감자</a></li>
+                        <li><a href="#">치즈스틱(2조각)</a></li>
+                        <li><a href="#">팝콘볼</a></li>
+                        <li><a href="#">고구마치즈팝콘볼</a></li>
+                        <li><a href="#">갈릭김떡만</a></li>
+                        <li><a href="#">매콤김떡만</a></li>
+                        <!-- 12개 -->
+                        <li><a href="#">할라피뇨너겟</a></li>
+                        <li><a href="#">맘스양념소스</a></li>
+                        <li><a href="#">렌치소스</a></li>
+                        <li><a href="#">치킨무</a></li>
+                    </ul>
+                </section>
+
+                <section id="drinks">
+                    <ul>
+                        <li><a href="#">사이다</a></li>
+                        <li><a href="#">콜라</a></li>
+                        <li><a href="#">미린다</a></li>
+                        <li><a href="#">마운틴듀</a></li>
+                        <li><a href="#">레몬에이드</a></li>
+                        <li><a href="#">청포도에이드</a></li>
+                        <li><a href="#">아메리카노(HOT)</a></li>
+                        <li><a href="#">아메리카노(ICE)</a></li>
+                        <li><a href="#">오렌지쥬스</a></li>
+                    </ul>
+                </section>
+            </secton>
         </main>
-
-        <footer>
-            <h1>푸터는 웹사이트 마지막에 팩스나 전화번호 같은거있는데</h1>
-        </footer>
     </body>
 </html>
