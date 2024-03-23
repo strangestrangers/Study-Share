@@ -3,20 +3,20 @@
 ## 정보
 <details>
   <summary>3학년 1학기에 해야 할 일(방학 포함)</summary>
-     1. 토익 990점 달성을 위한 영어 공부</br>
-     2. 운전면허 1종 따기</br>
-     3. 군사영어 단어 암기</br>
-     4. 학점 3점대 후반 ~ 4점대</br>
+   &nbsp 1. 토익 990점 달성을 위한 영어 공부</br>
+   &nbsp 2. 운전면허 1종 따기</br>
+   &nbsp 3. 군사영어 단어 암기</br>
+   &nbsp 4. 학점 3점대 후반 ~ 4점대</br>
   
   <summary>임베디드 경진대회 준비 중</summary>
-     1. HTML, CSS를 통한 키오스크 구현 </br>
-     2. JavaScript 공부 및 키오스크 내에서 사용 </br>
-     3. C++ 공부 </br>
-     4. 선형대수 공부 </br>
-     5. ROS를 통한 Visual SLAM의 구현 </br>
-       5-1) ROS 공부 </br>
-       5-2) Visual SLAM 공부 </br>
-     6. 필요 시 OpenGL 공부도 병
+   &nbsp 1. HTML, CSS를 통한 키오스크 구현 </br>
+   &nbsp 2. JavaScript 공부 및 키오스크 내에서 사용 </br>
+   &nbsp 3. C++ 공부 </br>
+   &nbsp 4. 선형대수 공부 </br>
+   &nbsp 5. ROS를 통한 Visual SLAM의 구현 </br>
+    &nbsp 5-1) ROS 공부 </br>
+    &nbsp 5-2) Visual SLAM 공부 </br>
+   &nbsp 6. 필요 시 OpenGL 공부도 병
   -------------------------------------------------- </br>
   a) 로봇이 물건 찾는 작동 방식 </br>
    1. 사진을 서버에 올림 </br>
