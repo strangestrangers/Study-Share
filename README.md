@@ -16,9 +16,9 @@
    &nbsp 1. C++ 공부 </br>
    &nbsp 2. 선형대수 공부 </br>
    &nbsp 3. ROS를 통한 Visual SLAM의 구현 </br>
-    &nbsp 3-1) ROS 공부 </br>
-    &nbsp 4-2) Visual SLAM 공부 </br>
-   &nbsp 4. 필요 시 OpenGL 공부도 병
+    &nbsp &nbsp 3-1) ROS 공부 </br>
+    &nbsp &nbsp 4-2) Visual SLAM 공부 </br>
+   &nbsp 4. 필요 시 OpenGL 공부도 병행
   -------------------------------------------------- </br>
   a) 로봇이 물건 찾는 작동 방식 </br>
    1. 사진을 서버에 올림 </br>
