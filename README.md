@@ -45,11 +45,6 @@
  Visual odometry (시각적 주행 거리 측정): 데이터 특정 추출 -> 상대적 움직임 예측 </br>
  Loop closure detection (루프 폐쇄 검출): 방문한 위치인지 판단. </br>
 2) Backend optimization(최적화) - > backend </br>
-
- 
-</details>
-  https://www.youtube.com/@GDSB/playlists
-</details>
   
 <details>
   <summary>회로 및 라즈베리</summary>
