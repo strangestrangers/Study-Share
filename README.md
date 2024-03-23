@@ -8,15 +8,17 @@
    &nbsp 3. 군사영어 단어 암기</br>
    &nbsp 4. 학점 3점대 후반 ~ 4점대</br>
   
-  <summary>임베디드 경진대회 준비 중</summary>
+  <summary>임베디드 경진대회 준비 중 (폭파 전)</summary>
    &nbsp 1. HTML, CSS를 통한 키오스크 구현 </br>
    &nbsp 2. JavaScript 공부 및 키오스크 내에서 사용 </br>
-   &nbsp 3. C++ 공부 </br>
-   &nbsp 4. 선형대수 공부 </br>
-   &nbsp 5. ROS를 통한 Visual SLAM의 구현 </br>
-    &nbsp 5-1) ROS 공부 </br>
-    &nbsp 5-2) Visual SLAM 공부 </br>
-   &nbsp 6. 필요 시 OpenGL 공부도 병
+
+  <summary>임베디드 경진대회 준비 중 (재편성)</summary>
+   &nbsp 1. C++ 공부 </br>
+   &nbsp 2. 선형대수 공부 </br>
+   &nbsp 3. ROS를 통한 Visual SLAM의 구현 </br>
+    &nbsp 3-1) ROS 공부 </br>
+    &nbsp 4-2) Visual SLAM 공부 </br>
+   &nbsp 4. 필요 시 OpenGL 공부도 병
   -------------------------------------------------- </br>
   a) 로봇이 물건 찾는 작동 방식 </br>
    1. 사진을 서버에 올림 </br>
